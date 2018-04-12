@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="vehicle_detail_row_count">6</integer>
+
+    <string-array name="vehicle_detail_row_titles">
+        <item>VehicleId:</item>
+        <item>Vrn:</item>
+        <item>Country:</item>
+        <item>Colour:</item>
+        <item>Type:</item>
+        <item>Default:</item>
+    </string-array>
+
+    <integer name="portrait_screen_details_percentage">50</integer>
+    <integer name="landscape_screen_details_percentage">50</integer>
+
+</resources>
+

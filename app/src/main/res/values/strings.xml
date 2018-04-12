@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cobalt Vehicles App (S.Hutton)</string>
+    <string name="action_settings">Settings</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Message Strings -->
+    <string name="error_mess_api_null_pointer">Call to Vehicle API has returned a null :</string>
+    <string name="error_mess_api_failure_response">"API reporting a failure response : Check the API is running"</string>
+    <string name="error_mess_api_no_internet">Device not connected to internet. Cannot read current vehicle data</string>
+    <string name="error_mess_api_unsuccessful_response">API reporting an unsuccessful response. status=</string>
+    <string name="message_no_vehicle_data_to_show">No vehicle data to show</string>
+
+    <!--Preferences-->
+    <string name="preference_title_version">Version</string>
+    <string name="preference_version_key">version</string>
+    <string name="too_much_vehicle_data">Vehicle data is not formatted correctly. Too many data items.</string>
+
+
+</resources>

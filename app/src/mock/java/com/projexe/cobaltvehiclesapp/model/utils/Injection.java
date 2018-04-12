@@ -1,0 +1,24 @@
+package com.projexe.cobaltvehiclesapp.model.utils;
+
+import android.content.Context;
+import android.support.annotation.NonNull;
+
+import com.projexe.cobaltvehiclesapp.model.AppModels;
+import com.projexe.cobaltvehiclesapp.model.IModelContract;
+import com.projexe.cobaltvehiclesapp.model.ModelImplementationMock;
+
+
+/**
+ * Simple injection class for injecting a "Model" i.e. the business functionality class into
+ * an app build.
+ * This is the MOCK version and will build into the 'mock' build variant
+ * Enables injection of ***MOCK*** implementations for {@link IModelContract} at compile time.
+ * @author Simon Hutton
+ * @version 1.0
+ */
+public class Injection {
+
+    public static IModelContract provideModel(@NonNull Context ctx) {
+        return AppModels.getInMemoryInstance(new ModelImplementationMock(ctx));
+    }
+}
