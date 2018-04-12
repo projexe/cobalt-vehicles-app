@@ -10,6 +10,8 @@ Therefore if 2 fragments were implemented, the data would have to be passed back
 
 This wouldn't fit my architecture pattern as there is no further API reads or business logic required to obtain the Vahicle details. Therefore both List and Details are handled by the single fragment. 
 
+Note that the MOCK build uses a dummy API call and is used to test the model for API errors
+
 As Retrofit is isung an asynchronous call, there was no need to use RxJava for the asynchronous call
 
 Crashlytics is included for crash reporting
