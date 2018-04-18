@@ -8,7 +8,7 @@ Development notes : Consideration was given in the design phase to implementing 
 
 Therefore if 2 fragments were implemented, the data would have to be passed back from the List fragment to the model via the presenter and then sent to a new Details fragment presenter to be displayed on that fragment.
 
-This wouldn't fit my architecture pattern as there is no further API reads or business logic required to obtain the Vahicle details. Therefore both List and Details are handled by the single fragment. 
+This wouldn't fit my architecture pattern as there is no further API reads or business logic required to obtain the Vehicle details. Therefore both List and Details are handled by the single fragment. 
 
 Note that the MOCK build uses a dummy API call and is used to test the model for API errors
 
