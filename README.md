@@ -12,7 +12,7 @@ This wouldn't fit my architecture pattern as there is no further API reads or bu
 
 Note that the MOCK build uses a dummy API call and is used to test the model for API errors
 
-As Retrofit is isung an asynchronous call, there was no need to use RxJava for the asynchronous call
+As Retrofit is using an asynchronous call, there was no need to use RxJava for the asynchronous call
 
 Crashlytics is included for crash reporting
 
